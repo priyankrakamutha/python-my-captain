@@ -1,0 +1,10 @@
+def most_frequent(string):
+    f = dict()
+    for key in string:
+        if key not in d:
+            f[key] = 1
+        else:
+            f[key] += 1
+    return f
+
+print most_frequent(input(enter the word:))
