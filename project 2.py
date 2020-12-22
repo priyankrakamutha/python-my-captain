@@ -1,8 +1,9 @@
-
-list1 = [11, -21, 0, 45, 66, -93] 
-  
-
-for num in list1: 
-    if num >= 0: 
-       print(num, end = " ") 
-    
+n=int(input("enter how many numbers you want in the series"))
+f=0
+s=1
+for i in range(n):
+    print(f)
+    c=f
+    f=s
+    s=f+c
+   
