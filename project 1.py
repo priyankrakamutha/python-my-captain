@@ -1,5 +1,5 @@
 
-a=input("input radius of circle")
-b=float(a)
-c=3.14*b**2
-print("area of circle is",c)
+i=input("Enter radius of circle")
+h=float(i)
+g=3.14*h**2
+print("Area of circle is",g)
